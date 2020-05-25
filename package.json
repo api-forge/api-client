@@ -1,0 +1,40 @@
+{
+  "name": "af-api-client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "7.0.0",
+    "eslint-config-airbnb-base": "14.1.0",
+    "eslint-plugin-import": "2.20.2",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-security": "1.4.0",
+    "jest": "26.0.1"
+  },
+  "homepage": "https://github.com/Pupix/NAME",
+  "author": {
+    "name": "Robert Manolea",
+    "email": "manolea.robert@gmail.com"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "contributors": [
+    {
+      "name": "Robert Manolea",
+      "email": "manolea.robert@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pupix/NAME.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Pupix/NAME/issues"
+  },
+  "dependencies": {
+    "abort-controller": "3.0.0",
+    "lodash": "4.17.15",
+    "node-fetch": "2.6.0"
+  }
+}
