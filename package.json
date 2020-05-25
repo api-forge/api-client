@@ -1,8 +1,8 @@
 {
-  "name": "af-api-client",
+  "name": "@api-forge/api-client",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "main": "src/index.js",
+  "license": "Apache-2.0",
   "devDependencies": {
     "eslint": "7.0.0",
     "eslint-config-airbnb-base": "14.1.0",
@@ -11,30 +11,19 @@
     "eslint-plugin-security": "1.4.0",
     "jest": "26.0.1"
   },
-  "homepage": "https://github.com/Pupix/NAME",
-  "author": {
-    "name": "Robert Manolea",
-    "email": "manolea.robert@gmail.com"
-  },
-  "scripts": {
-    "test": "jest"
-  },
-  "contributors": [
-    {
-      "name": "Robert Manolea",
-      "email": "manolea.robert@gmail.com"
-    }
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Pupix/NAME.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Pupix/NAME/issues"
-  },
   "dependencies": {
     "abort-controller": "3.0.0",
     "lodash": "4.17.15",
     "node-fetch": "2.6.0"
-  }
+  },
+  "homepage": "https://github.com/api-forge/api-client",
+  "author": {
+    "name": "API FORGE",
+    "email": "info@apiforge.it"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": "https://github.com/api-forge/api-client",
+  "bugs": "https://github.com/api-forge/api-client/issues"
 }
